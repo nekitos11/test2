@@ -4,7 +4,7 @@ export const PrizeBlock = () => (
   <section className={styles.prizeBlock}>
     <div className={styles.item}>
       <h2>A brand new smartphone!</h2>
-      <img src="@assets/images/prize1.png" />
+      <div className={styles.item__prize + " " + styles.item__prize2} />
       <p>Samsung Galaxy Z Flip5</p>
       <div className={styles.item__decoration}>
         <div />
@@ -13,7 +13,7 @@ export const PrizeBlock = () => (
     </div>
     <div className={styles.item}>
       <h2>Custom Jersey</h2>
-      <img src="@assets/images/prize2.PNG" />
+      <div className={styles.item__prize + " " + styles.item__prize1} />
       <p>Custom East Bengal FC jersey with your name</p>
       <div className={`${styles.item__decoration_top}`}>
         <div />
