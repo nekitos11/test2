@@ -1,0 +1,38 @@
+.modalText {
+    text-align: center;
+    margin-top: 25px;
+
+    .termsTitle {
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .termsText {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+}
+
+.buttonBlock {
+    text-align: center;
+
+    button {
+        margin: 35px 0px 10px 0px;
+        background: red;
+        border-radius: 4px;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 70%;
+        padding: 10px 0px;
+
+        &:hover {
+            opacity: 0.4;
+        }
+    }
+}
+
+.hideButton {
+    display: none;
+}

@@ -1,0 +1,62 @@
+
+.modalUserInfoForm {
+  &__checkbox {
+    align-items: center;
+    display: flex;
+    gap: 9px;
+    font-size: 15px;
+    color: black;
+    flex-direction: row-reverse;
+    position: relative;
+    padding-left: 44px;
+    width: fit-content;
+    height: 30px;
+
+    & input {
+      appearance: none;
+      position: absolute;
+      padding: 0;
+      width: 0;
+      height: 0;
+      left: -1000px;
+    }
+
+
+    & span {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 30px;
+      height: 30px;
+      border-radius: 2px;
+      border: 1px solid black;
+      background-image: none;
+
+    }
+
+    & input:checked + span {
+      background-repeat: no-repeat;
+      background-size: 24px;
+      background-position: 50%;
+      background-image: url("@assets/images/check.svg");
+    }
+  }
+
+  &__terms {
+    font-weight: bold;
+    display: contents;
+  }
+
+  &__submit {
+    margin-top: 40px;
+  }
+}
+
+.selectWrapper {
+  padding-right: 20px;
+  border: 1px solid black;
+  box-shadow: none;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+}

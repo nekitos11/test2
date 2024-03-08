@@ -1,0 +1,19 @@
+.header {
+    height: 84px;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+
+@media (width < 800px) {
+    .header {
+        padding-left: 20px;
+        height: 66px;
+        & img {
+            height: 40px;
+
+        }
+    }
+}

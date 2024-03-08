@@ -1,0 +1,30 @@
+
+
+.buttonWrapper {
+  font-size: 36px;
+  cursor: pointer;
+  padding: 10px 118px;
+  margin: auto;
+  display: block;
+  background-color: #E90712;
+  color: white;
+  text-wrap: nowrap;
+  font-weight: 500;
+  line-height: 24px;
+  height: 64px;
+  box-shadow: -4px 5px 4px rgba(0, 0, 0, 0.37);
+}
+
+@media (width < 1200px) {
+  .buttonWrapper {
+    font-size: 28px
+  }
+}
+@media (width < 800px) {
+  .buttonWrapper {
+    padding:10px 58px;
+
+    height: 44px;
+    font-size: 20px
+  }
+}

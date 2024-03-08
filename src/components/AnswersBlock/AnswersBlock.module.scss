@@ -1,0 +1,42 @@
+.answersBlock {
+  padding-left: 520px;
+  padding-right: 520px;
+  margin-bottom: 150px;
+  margin-top: 140px;
+
+  & > div:first-child {
+    font-family: 'Druk Wide Trial', sans-serif;
+  }
+}
+
+
+@media (width < 1700px) {
+  .answersBlock {
+    padding-left: 400px;
+    padding-right: 400px;
+  }
+}
+
+@media (width < 1500px) {
+  .answersBlock {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+
+@media (width < 1300px) {
+  .answersBlock {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+
+@media (width < 800px) {
+  .answersBlock {
+    padding-left: 40px;
+    margin-top: 100px;
+    padding-right: 40px;
+    margin-bottom: 80px;
+  }
+}

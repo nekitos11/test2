@@ -1,0 +1,1 @@
+export { ModalUserInfoForm } from "./ModalUserInfoForm.jsx";

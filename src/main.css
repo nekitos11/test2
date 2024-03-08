@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@font-face {
+    font-family: "DRUK";
+    src: url("@assets/fonts/DRUK.woff2") format("woff2"), url("@assets/fonts/DRUK.woff") format("woff"),
+    url("@assets/fonts/DRUK.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+#root {
+    height: 100vh;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 25px 50px;
+    padding-top: 0;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+    border: 0;
+    color: #000;
+    font-family: Inter, sans-serif;
+    letter-spacing: .45px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: .4s;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    -webkit-text-stroke: 2px #A9050D;
+    color: #FECD2A;
+    font-family: 'Druk Wide Trial', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 1.3em;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 18px;
+}
+h5 {
+    font-size: 16px;
+}
+
+button {
+    padding-block: 0;
+    padding-inline: 0;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: none;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    line-height: 21px;
+    outline: none;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input::placeholder {
+    font-family: Inter, sans-serif !important;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+select {
+    border: none;
+}
+
+svg {
+    cursor: pointer;
+}
+
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+@media (max-width: 999.98px) {
+    #root {
+        padding: 0;
+    }
+}
+
+@media (max-width: 799.98px) {
+    input {
+        padding: 10px;
+    }
+}
+
+svg {
+    cursor: pointer;
+}

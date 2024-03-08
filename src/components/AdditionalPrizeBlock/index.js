@@ -1,0 +1,1 @@
+export { AdditionalPrizeBlock } from './AdditionalPrizeBlock.jsx'
