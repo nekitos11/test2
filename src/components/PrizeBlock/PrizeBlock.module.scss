@@ -12,7 +12,7 @@
   height: 100%;
   width: 100%;
   padding-top: 28px;
-  padding-bottom: 102px;
+  padding-bottom: 82px;
   padding-left: 38px;
   padding-right: 38px;
   text-align: center;
@@ -22,6 +22,7 @@
   position: relative;
   overflow: hidden;
   gap: 36px;
+  min-height: 760px;
   & h2 {
     font-size: 32px;
     -webkit-text-stroke: 2px #A9050D;
@@ -103,10 +104,13 @@
     font-size: 24px;
   }
 
+  .item {
+    min-height: 700px;
+  }
+
   .item__prize  {
     width: 160%;
     height: auto;
-
   }
 }
 
