@@ -8,15 +8,6 @@ import * as path from "path";
 export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), svgr({ include: "**/*.svg" })],
-    build: {
-      outDir: "build",
-      chunkSizeWarningLimit: 500000,
-      rollupOptions: {
-        output: {
-          assetFileNames: "assets/[name].[ext]", // указывает формат и путь для сохранения статических ресурсов
-        },
-      },
-    },
     resolve: {
       alias: [
         { find: "@", replacement: "/src" },
